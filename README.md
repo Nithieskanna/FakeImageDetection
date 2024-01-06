@@ -10,10 +10,8 @@ Datasets collected from the following :
 
 Every image is resized to 256x256, separated into train, test, and validation sets 6:2:2 ratio respectively.
 Dataset folder structure:
-Train                  Test                    Val              
- -> Fake_Deepfake        -> Fake_Deepfake       -> Fake_Deepfake
- -> Fake_GAN             -> Fake_GAN            -> Fake_GAN
- -> Fake_Photoshop       -> Fake_Photoshop      -> Fake_Photoshop
- -> Real                 -> Real                -> Real
+
+  ![Screenshot 2024-01-07 010542](https://github.com/Nithieskanna/FakeImageDetection/assets/61176592/fdfaf6c9-90c4-4883-93a0-76725e948d54)
+
 
 Trained Model: ExceptionNet with XAI.
