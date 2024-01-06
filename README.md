@@ -9,5 +9,11 @@ Datasets collected from the following :
 > https://www.kaggle.com/datasets/9f08fe1daad5011ffde26e66c793278810914311cbfb2a2d5d03639f15d3b11a
 
 Every image is resized to 256x256, separated into train, test, and validation sets 6:2:2 ratio respectively.
+Dataset folder structure:
+Train                  Test                    Val              
+ -> Fake_Deepfake        -> Fake_Deepfake       -> Fake_Deepfake
+ -> Fake_GAN             -> Fake_GAN            -> Fake_GAN
+ -> Fake_Photoshop       -> Fake_Photoshop      -> Fake_Photoshop
+ -> Real                 -> Real                -> Real
 
 Trained Model: ExceptionNet with XAI.
